@@ -1,0 +1,12 @@
+{
+  "local_address": "127.0.0.1",
+  "local_port":1080,
+  "timeout":300,
+  "id": "70a1c4b2-a624-422a-a1a7-166c676a6aca",
+  "remarks": "Relay-EU1",
+  "name": "Relay-EU1",
+  "server": "sophia.darkcloudpiece.com",
+  "server_port": 995,
+  "password": "mQtxLq1eJvEU",
+  "method": "chacha20-ietf-poly1305"
+}
