@@ -1,12 +1,12 @@
 // 要访问的 HTTPS 网站 URL
 const https = require('https');
-const targetUrl = 'https://www.google.com';
+const targetUrl = 'https://api.openai.com/v1/models';
 
 // 发起 HTTPS 请求
 https.get(targetUrl, { 
   // agent,
   headers: {
-    'Authorization': 'Bearer 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',
+    'Authorization': 'Bearer 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',
   },
 }, (res) => {
   console.log('statusCode:', res.statusCode);

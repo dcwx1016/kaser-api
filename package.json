@@ -2,9 +2,9 @@
   "name": "kaser-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/main.ts",
+    "start": "node src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "open-proxy": "/opt/homebrew/opt/shadowsocks-libev/bin/ss-local -c /opt/homebrew/etc/shadowsocks-libev.json",
     "dev-proxy": "proxychains4 -f proxychains.conf node test.js"
@@ -23,9 +23,11 @@
   "dependencies": {
     "axios": "^1.6.0",
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "http-proxy-agent": "^7.0.0",
-    "openai": "^4.6.0",
+    "https": "^1.0.0",
+    "openai": "^4.17.0",
     "socks-proxy-agent": "^8.0.2"
   },
   "devDependencies": {
